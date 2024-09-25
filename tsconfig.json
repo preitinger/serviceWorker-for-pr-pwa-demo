@@ -1,19 +1,5 @@
 {
-  "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "isolatedModules": true,
-    "strict": true,
-    "module": "CommonJS",
-    "lib": ["es2023", "es6", "dom", "webworker"],
-    "noEmit": true,
-    "moduleResolution": "node",
-    "skipLibCheck": false,
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
-    "declarationDir": "./types"
-  },
-  "include": ["src/*.ts"],
-//   "exclude": []
-//   "exclude": ["node_modules/**/*"]
+    "compilerOptions": {
+        "sourceMap": true
+    }
 }

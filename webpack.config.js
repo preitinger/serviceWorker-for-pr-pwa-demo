@@ -1,34 +1,27 @@
-const path = require('path')
+'use strict';
+const path = require('path');
 
 module.exports = {
-    entry: {
-        bundle: path.join(__dirname, './src/sw.ts'),
-    },
-
-    output: {
-        filename: 'sw.js',
-        path: path.join(__dirname, 'dist'),
-    },
-
-    // mode: process.env.NODE_ENV || 'development',
-    mode: 'production',
-
-    watchOptions: {
-        ignored: /node_modules|dist|\.js/g,
-    },
-
-    //   devtool: 'eval-cheap-module-source-map',
-    devtool: 'source-map',
-
-    resolve: {
-        extensions: ['.js', '.json'],
-        plugins: [],
-    },
-
+    devtool: 'inline-source-map',
+	entry: './src/sw.ts',
+	output: {
+		filename: 'sw.js',
+		path: path.resolve(__dirname, 'dist')
+	},
     module: {
         rules: [
-            { test: /\.css$/, use: 'css-loader' },
-            { test: /\.ts$/, use: 'ts-loader' },
+            {
+                test: /\.([cm]?ts|tsx)$/,
+                loader: 'ts-loader',
+            },
         ],
     },
-}
+    resolve: {
+        extensions: [ '.ts', '.tsx', '.js' ],
+        extensionAlias: {
+            '.ts': ['.js', '.ts'],
+            '.cts': ['.cjs', '.cts'],
+            '.mts': ['.mjs', '.mts']
+        }
+    }
+};
