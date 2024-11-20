@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "scripts": {
     "build": "webpack --mode production",
-    "start": "webpack serve --progress --color"
+    "start": "webpack serve --progress --color",
+    "test": "webpack --config webpack.test.config.js"
   },
   "devDependencies": {
     "ts-loader": "^9.5.1",
@@ -14,6 +15,8 @@
     "webpack-dev-server": "^5.1.0"
   },
   "dependencies": {
+    "@types/nodemailer": "^6.4.16",
+    "nodemailer": "^6.9.15",
     "runtypes": "^6.7.0"
   }
 }

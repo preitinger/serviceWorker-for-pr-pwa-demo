@@ -1,0 +1,31 @@
+1:
+dist:
+insgesamt 212
+-rw-rw-r-- 1 peter peter 209527 Nov 20 07:36 sw.js
+-rw-rw-r-- 1 peter peter    357 Okt  9 10:26 test.js
+
+src:
+insgesamt 36
+-rw-rw-r-- 1 peter peter  411 Nov 20 07:36 messages.ts
+-rw-rw-r-- 1 peter peter  319 Okt  9 14:05 PushData.js.map
+-rw-rw-r-- 1 peter peter  211 Sep 24 20:09 PushData.ts
+-rw-rw-r-- 1 peter peter 1948 Okt  9 14:05 sw.js.map
+-rw-rw-r-- 1 peter peter 8400 Nov 20 07:36 sw.ts
+-rw-rw-r-- 1 peter peter  776 Okt  9 14:05 test.js.map
+-rw-rw-r-- 1 peter peter  846 Okt  9 14:03 test.ts
+
+2:
+dist:
+insgesamt 212
+-rw-rw-r-- 1 peter peter 209491 Nov 20 07:40 sw.js
+-rw-rw-r-- 1 peter peter    357 Okt  9 10:26 test.js
+
+src:
+insgesamt 36
+-rw-rw-r-- 1 peter peter  411 Nov 20 07:36 messages.ts
+-rw-rw-r-- 1 peter peter  319 Okt  9 14:05 PushData.js.map
+-rw-rw-r-- 1 peter peter  211 Sep 24 20:09 PushData.ts
+-rw-rw-r-- 1 peter peter 1948 Okt  9 14:05 sw.js.map
+-rw-rw-r-- 1 peter peter 8400 Nov 20 07:36 sw.ts
+-rw-rw-r-- 1 peter peter  776 Okt  9 14:05 test.js.map
+-rw-rw-r-- 1 peter peter  846 Okt  9 14:03 test.ts
