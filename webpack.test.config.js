@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
     devtool: 'source-map',
-	entry: './src/test.ts',
+	entry: './src/sw.ts',
 	output: {
 		filename: 'test.js',
 		path: path.resolve(__dirname, 'distForTest')

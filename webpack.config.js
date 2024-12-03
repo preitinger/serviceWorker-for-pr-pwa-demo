@@ -2,7 +2,7 @@
 const path = require('path');
 
 module.exports = {
-    devtool: 'inline-source-map',
+    devtool: 'source-map',
 	entry: './src/sw.ts',
 	output: {
 		filename: 'sw.js',
