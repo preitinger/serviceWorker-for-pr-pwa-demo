@@ -21,12 +21,11 @@ export type { };
 type Version = number
 const MANIFEST_PATH = '/manifest.webmanifest'
 
-const version: Version = 94
+const version: Version = 97
 
 declare const self: ServiceWorkerGlobalScope;
 
-logMessages();
-
+console.debug = () => { }
 console.info('Custom service worker functions for pr-newsletter: version=', version);
 
 const CACHE_PREFIX = 'pr-newsletter-cache-';
