@@ -21,7 +21,7 @@ export type { };
 type Version = number
 const MANIFEST_PATH = '/manifest.webmanifest'
 
-const version: Version = 100
+const version: Version = 109
 
 declare const self: ServiceWorkerGlobalScope;
 
