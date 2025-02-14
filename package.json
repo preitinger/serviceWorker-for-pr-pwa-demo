@@ -7,6 +7,7 @@
     "copy": "./copyTo_pr-newsletter.sh",
     "build & copy": "webpack --mode production && ./copyTo_pr-newsletter.sh",
     "copy to pr-scheduler": "./copyTo_pr-scheduler.sh",
+    "copy to pr-pwa-demo": "./copyTo_pr-pwa-demo.sh",
     "start": "webpack serve --progress --color",
     "test": "webpack --config webpack.test.config.js"
   },
